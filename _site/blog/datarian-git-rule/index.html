@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Members tab 업데이트를 하면서 배우는 데이터리안 테크 블로그 git 사용 룰</title>
+
+    <!-- Post info -->
+
+    <meta property="og:site_name" content="WEDFRI">
+
+    <meta property="fb:app_id" content="1607605225977118" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://localhost:4000/blog/datarian-git-rule/" />
+
+    <meta property="og:image" content="http://localhost:4000/img/share-img.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- title -->
+    <meta property="og:title" content="Members tab 업데이트를 하면서 배우는 데이터리안 테크 블로그 git 사용 룰">
+
+    <meta name="twitter:title" content="Members tab 업데이트를 하면서 배우는 데이터리안 테크 블로그 git 사용 룰">
+
+    <!-- description -->
+    <meta property="og:description" content="### 작업을 시작하기 전에!! 1. 나의 github 계정으로 데이터리안 블로그 repository를 fork해주세요! ![fork](./img/fork.png) &nbsp; 2. 터미널을 켜서 `git clone 주소` 명령으로 fork한 repository를 clone합니다. ![clone](./img/clone.png) &nbsp; 3. `git remote add..." />
+
+    <meta name="twitter:description" content="### 작업을 시작하기 전에!! 1. 나의 github 계정으로 데이터리안 블로그 repository를 fork해주세요! ![fork](./img/fork.png) &nbsp; 2. 터미널을 켜서 `git clone 주소` 명령으로 fork한 repository를 clone합니다. ![clone](./img/clone.png) &nbsp; 3. `git remote add...">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TPVGBBM');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167958270-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-167958270-1');
+    </script>
+
+    <!-- GA web app -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M875CYQ2ZK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M875CYQ2ZK');
+    </script>
+
+
+    <!-- Beusable for testing -->
+    <!-- <script type="text/javascript">
+        (function(w, d, a) {
+            w.__beusablerumclient__ = {
+                load: function(src) {
+                    var b = d.createElement("script");
+                    b.src = src;
+                    b.async = true;
+                    b.type = "text/javascript";
+                    d.getElementsByTagName("head")[0].appendChild(b);
+                }
+            };
+            w.__beusablerumclient__.load(a);
+        })(window, document, "//rum.beusable.net/script/b200521e174556u166/a55256893d");
+    </script> -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPVGBBM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+
+    
+    <nav class="nav">
+        <div class="nav-container">
+            <ul>
+                <li class="transition">
+                    <a href="/"  class="normal"  class="active">Datarian</a>
+                </li>
+                </li>
+                <li class="transition">
+                    <a href="/blog"  class="active" >Blog</a>
+                </li>
+                <li class="transition">
+                    <a href="/member" >Members</a>
+                </li>
+                <!-- <li class="transition">
+                    <a href="/about" >About</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+     
+
+    <main>
+        <div class="post-container">
+    <div class="post-full-content">
+    </div>
+    <div class="post">
+        <div class="post-info">
+            <div class="post-type-tag">
+                
+                <div class="post-type">
+                    Git
+                </div>
+            </div>
+            <h1 class="post-title">
+                Members tab 업데이트를 하면서 배우는 데이터리안 테크 블로그 git 사용 룰
+            </h1>
+            <h2 class="post-subtitle">
+                git pull upstream master를 습관화 하자!!
+            </h2>
+        </div>
+
+        <!--포트폴리오 상단 정보-->
+
+        
+
+        <!--draft 일 때-->
+
+        
+
+        <!--큐레이션 영역-->
+        <h3 id="작업을-시작하기-전에">작업을 시작하기 전에!!</h3>
+<ol>
+  <li>
+    <p>나의 github 계정으로 데이터리안 블로그 repository를 fork해주세요!</p>
+
+    <p><img src="./img/fork.png" alt="fork" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>터미널을 켜서 <code class="highlighter-rouge">git clone 주소</code> 명령으로 fork한 repository를 clone합니다.</p>
+
+    <p><img src="./img/clone.png" alt="clone" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">git remote add upstream 주소</code> 명령을 입력해서 upstream을 추가해주세요.</p>
+
+    <p><img src="./img/add_upstream.png" alt="add_upstream" /></p>
+
+    <ul>
+      <li>
+        <p><code class="highlighter-rouge">git remote -v</code> 로 upstream이 추가 되었는지 확인합니다.</p>
+
+        <p><img src="./img/remote.png" alt="remote" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git pull upstream master</code> 명령으로 최신 상태를 반영합니다.</p>
+      </li>
+    </ul>
+
+    <p> </p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">git checkout -b 브랜치이름</code> 명령으로 새로운 브랜치를 생성합니다.</p>
+
+    <p><img src="./img/blog_update.png" alt="blog-update" /></p>
+
+    <p> </p>
+  </li>
+</ol>
+
+<h3 id="그럼-이제-members-tab에-나를-추가해볼까요">그럼 이제 Members tab에 나를 추가해볼까요?</h3>
+
+<ol>
+  <li>
+    <p>Visual Studio Code를 열어서 clone해온 repository를 열어줍니다.</p>
+
+    <p><img src="./img/open.png" alt="open" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>data 폴더의 members.yml 파일을 열어줍니다.</p>
+
+    <p><img src="./img/member.png" alt="member" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>나의 정보를 추가한 후 저장합니다.</p>
+
+    <p><img src="./img/add_member.png" alt="add_member" /></p>
+    <ul>
+      <li>
+        <p>나의 정보를 각 속성에 맞게 추가해줍니다.</p>
+      </li>
+      <li>
+        <p>이미지 파일은 member 폴더의 img 폴더 안에 이미지 파일을 넣고 파일 경로를 적어주면 됩니다.</p>
+      </li>
+    </ul>
+
+    <p> </p>
+  </li>
+  <li>
+    <p><strong>저장한 후에 내가 의도한 대로 되었는지 확인하기 위해 바로 commit을 하지 마시고 로컬에서 먼저 build를 해봅니다!</strong></p>
+
+    <ul>
+      <li>데이터리안 블로그 README.md를 읽어보세요.</li>
+    </ul>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>내가 의도한 대로 잘 되었다면 터미널로 가봅시다.</p>
+
+    <ul>
+      <li>
+        <p><code class="highlighter-rouge">git status</code> 명령으로 commit할 파일(untracked 파일)을 확인합니다.</p>
+
+        <p><img src="./img/status.png" alt="status" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git add .(또는 파일이름)</code> 명령으로 untracked 파일을 tracked
+ (staged) 상태로 만들어줍니다. -&gt; <strong>commit할 준비가 되었다는 뜻</strong></p>
+
+        <p><img src="./img/add.png" alt="add" />
+  별 말 없으면 잘 추가되었다는 뜻입니다.</p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git commit -m 'commit 메시지'</code> 명령으로 commit을 합니다. commit 메시지는 다른 멤버들을 위해 자세하지만 간결하게 적어주세요!</p>
+
+        <p><img src="./img/commit.png" alt="commit" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git push origin 브랜치이름</code> 명령으로 내가 만든 브랜치를 origin에 push합니다.</p>
+
+        <p><img src="./img/push.png" alt="push" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git checkout master</code> 명령으로 master 브랜치로 브랜치를 변경합니다.</p>
+
+        <p><img src="./img/master.png" alt="master" /></p>
+      </li>
+      <li>
+        <p><strong>혹쉬 브랜치를 만들지 않고 master 브랜치에서 commit을 했다면 <a href="https://datarian-kr.github.io/blog/commit-at-master/">https://datarian-kr.github.io/blog/commit-at-master/</a> 로 가서 구원받으세요.</strong></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>github에 들어가서 pull request를 보냅니다.</p>
+
+    <p><img src="./img/pr.png" alt="pr" /></p>
+
+    <p><img src="./img/create_pr.png" alt="create_pr" /></p>
+
+    <ul>
+      <li>
+        <p>pull request를 보내고 슬랙 #blog 채널에서 리뷰를 요청해주세요.</p>
+      </li>
+      <li>
+        <p>특정 리뷰어를 지정해서 리뷰를 요청할 수도 있습니다.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>merge가 완료되면</strong> <code class="highlighter-rouge">git branch -D 브랜치이름</code> 명령으로 내가 만든 브랜치를 삭제합니다.</p>
+  </li>
+</ol>
+
+<p> </p>
+
+<h3 id="기억하고-있으면-좋을-것들">기억하고 있으면 좋을 것들</h3>
+
+<ol>
+  <li>
+    <p>브랜치를 생성하기 전에 습관적으로 <code class="highlighter-rouge">git pull upstream master</code>를 한다.</p>
+  </li>
+  <li>
+    <p>작업을 시작하기 전에 브랜치를 생성한다.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">git add .</code> 명령을 하기 전에 로컬에서 build를 해본다.</p>
+  </li>
+</ol>
+
+        <!-- autor 정보 -->
+        <!-- #author-->
+        
+<!-- /author  -->
+
+        <!--share-->
+         <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v2.10&appId=1607605225977118';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+    window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+        return t;
+    }(document, "script", "twitter-wjs"));
+</script>
+<section class="share transition">
+    <div class="share-twitter">
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large">Tweet</a>
+    </div>
+    <div class="share-facebook">
+        <div class="fb-share-button" data-href="http://localhost:4000/blog/datarian-git-rule/" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+            <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">공유하기</a>
+        </div>
+    </div>
+</section> 
+
+    </div>
+</div>
+    </main>
+
+    <footer>
+    <address class="footer_wrap">
+        <div class="information">
+            <div class="myname">
+                WEDFRI
+            </div>
+            <a href="mailto:w.hanseul@gmail.com" class="email">
+                w.hanseul@gmail.com
+            </a>
+            <div class="accounts">
+                <a href="http://github.com/datarian-kr" target="_blank" class="transition">
+                    <svg viewBox="0 0 32.6 31.8">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3,0C7.3,0,0,7.3,0,16.3c0,7.2,4.7,13.3,11.1,15.5
+                    c0.8,0.1,1.1-0.4,1.1-0.8c0-0.4,0-1.4,0-2.8c-4.5,1-5.5-2.2-5.5-2.2c-0.7-1.9-1.8-2.4-1.8-2.4c-1.5-1,0.1-1,0.1-1
+                    c1.6,0.1,2.5,1.7,2.5,1.7c1.5,2.5,3.8,1.8,4.7,1.4c0.1-1.1,0.6-1.8,1-2.2c-3.6-0.4-7.4-1.8-7.4-8.1c0-1.8,0.6-3.2,1.7-4.4
+                    C7.4,10.7,6.8,9,7.7,6.8c0,0,1.4-0.4,4.5,1.7c1.3-0.4,2.7-0.5,4.1-0.5c1.4,0,2.8,0.2,4.1,0.5c3.1-2.1,4.5-1.7,4.5-1.7
+                    c0.9,2.2,0.3,3.9,0.2,4.3c1,1.1,1.7,2.6,1.7,4.4c0,6.3-3.8,7.6-7.4,8c0.6,0.5,1.1,1.5,1.1,3c0,2.2,0,3.9,0,4.5
+                    c0,0.4,0.3,0.9,1.1,0.8c6.5-2.2,11.1-8.3,11.1-15.5C32.6,7.3,25.3,0,16.3,0z"></path>
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <span>
+                &copy; WEDFRI. <time datetime="2020-11-03 18:50:40 +0900">2020</time>
+            </span>
+        </div>    
+    </address>
+</footer>
+
+</body>
+
+</html>

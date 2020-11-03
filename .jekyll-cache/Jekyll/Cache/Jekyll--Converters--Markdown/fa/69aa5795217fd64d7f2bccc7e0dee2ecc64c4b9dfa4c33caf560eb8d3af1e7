@@ -1,0 +1,150 @@
+I"<div class="intro-animation">
+<section class="explanation">
+    <h1 class="intro">WEDFRI</h1>
+    <h2 class="intro">WEDFRI - 서비스개발 팀 테크 블로그</h2>
+    <h2 class="intro" style=""></h2>
+    <div class="intro-link">
+        <a class="transition" href="https://wedfri.github.io/blog/" target="_blank">
+        </a>
+        <div class="underline-mask transition"></div>
+        <div class="underline"></div>
+    </div>
+</section>
+</div>
+<p><br /><br /></p>
+<section class="explanation">
+<h3 class="intro">서비스 개발을 하고 있습니다.</h3>
+</section>
+<div class="loading-animation">
+    <section class="resume">
+
+        <div class="resume-info">
+    <p class="second-label">
+        <span class="label-emoji">
+        📚
+    </span> &nbsp; 온라인 강의
+    </p>
+</div>
+
+
+<div class="project-box">
+    <div class="project-info">
+        <h1 class="project-title">
+            백문이불여일타
+        </h1>
+    </div>
+    <ul class="project-info">
+        
+        <li class="project-item transition">
+            <a class="project-body" href="https://www.inflearn.com/course/%EB%B0%B1%EB%AC%B8%EC%9D%B4%EB%B6%88%EC%97%AC%EC%9D%BC%ED%83%80-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EA%B8%B0%EC%B4%88-SQL" target="_blank">
+            데이터 분석을 위한 기초 SQL
+            </a>
+        </li>
+        
+        <li class="project-item transition">
+            <a class="project-body" href="https://www.inflearn.com/course/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EC%A4%91%EA%B8%89-SQL" target="_blank">
+            데이터 분석을 위한 중급 SQL
+            </a>
+        </li>
+        
+        <li class="project-item transition">
+            <a class="project-body" href="https://www.inflearn.com/course/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D-%EA%B3%A0%EA%B8%89-SQL" target="_blank">
+            데이터 분석을 위한 고급 SQL
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+<div class="project-box">
+    <div class="project-info">
+        <h1 class="project-title">
+            개념부터 실습까지
+        </h1>
+    </div>
+    <ul class="project-info">
+        
+        <li class="project-item transition">
+            <a class="project-body" href="https://www.inflearn.com/course/%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9E%85%EB%AC%B8%ED%8E%B8" target="_blank">
+            추천 시스템 입문편
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+<div class="resume-info">
+    <p class="second-label">
+        <span class="label-emoji">
+        📚
+    </span> &nbsp; 기획중인 강의
+    </p>
+</div>
+
+<ul>
+    
+    <li class="catalogue-item transition">
+        <p class="catalogue-body" style="color: light-grey;">
+            [개념부터 실습까지] 추천 시스템 심화편
+        </p>
+    </li>
+
+    
+    <li class="catalogue-item transition">
+        <p class="catalogue-body" style="color: light-grey;">
+            [백문이불여일타] 데이터 분석가의 업무를 위한 SQL
+        </p>
+    </li>
+
+    
+</ul>
+
+
+    </section>
+
+    <!-- <section class="resume">
+        <div class="resume-info">
+            <p class="second-label">
+                <span class="label-emoji">
+                📚
+            </span> &nbsp; 블로그
+            </p>
+        </div>
+
+        <a href="/blog" class="transition">
+            <div class="view-all-projects transition">
+                글 더 보기
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><defs><style>.cls-1{fill:none;}</style></defs><path d="M7.2,17.9l6.1-6.1L7.2,5.6,9,3.8l8,8-8,8Z"/><path class="cls-1" d="M.1-.2h24v24H.1Z"/></svg>
+            </div>
+        </a>
+
+    </section> -->
+
+    <section class="skill">
+        <div class="resume-info">
+            <p class="second-label">
+                <span class="label-emoji">
+                &#x1F4AA;
+            </span> &nbsp; Available Skills &amp; Roles
+            </p>
+        </div>
+        <ul>
+            
+            <li class="skill_name">
+                Data Analysis
+            </li>
+            
+            <li class="skill_name">
+                Web Development
+            </li>
+            
+            <li class="skill_name">
+                Education
+            </li>
+            
+        </ul>
+    </section>
+</div>
+:ET

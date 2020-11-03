@@ -1,0 +1,42 @@
+div.member-box {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $break-small) {}
+}
+
+.member-item {}
+
+div.member-item:nth-child(1) {
+    order: 1;
+}
+
+div.member-item:nth-child(2) {
+    order: 2;
+    @media (max-width: $break-medium) {
+        display: none;
+    }
+}
+
+div.member-skill {
+    svg {
+        width: 24px;
+        fill: $orange;
+        position: absolute;
+    }
+    li.skill_name {
+        display: inline-block;
+        font-family: $source;
+        padding: 4px 14px;
+        border-radius: 100px;
+        border: solid 1px $grey-2;
+        font-size: 16px;
+        margin: 0 8px 14px 0;
+    }
+}
+
+.member-img {
+    height: 176px;
+    width: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}

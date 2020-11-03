@@ -1,0 +1,189 @@
+I"�<ul class="catalogue">
+
+
+    
+
+    
+
+    
+        
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Jaemin
+                </h1>
+                <p class="catalogue-sub">
+                    추천 시스템 강의를 만듭니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Project Management
+                    </li>
+                    
+                    <li class="skill_name">
+                        ~~
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst, Developer, Product Manager
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Hanseul Wang
+                </h1>
+                <p class="catalogue-sub">
+                    데이터분석을 합니다. 개발과 디자인을 가끔 합니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Data visualization
+                    </li>
+                    
+                    <li class="skill_name">
+                        Software development
+                    </li>
+                    
+                    <li class="skill_name">
+                        Product Management
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_hanseulwang.jpg" /> 
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst, Developer
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Hanseul Wang
+                </h1>
+                <p class="catalogue-sub">
+                    데이터분석을 합니다. 개발과 디자인을 가끔 합니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Data visualization
+                    </li>
+                    
+                    <li class="skill_name">
+                        Software development
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_hanseulwang.jpg" /> 
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst, Developer
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Hanseul Wang
+                </h1>
+                <p class="catalogue-sub">
+                    데이터분석을 합니다. 개발과 디자인을 가끔 합니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Data visualization
+                    </li>
+                    
+                    <li class="skill_name">
+                        Software development
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_hanseulwang.jpg" /> 
+        </div>
+    </div>
+</li>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+</ul>
+:ET

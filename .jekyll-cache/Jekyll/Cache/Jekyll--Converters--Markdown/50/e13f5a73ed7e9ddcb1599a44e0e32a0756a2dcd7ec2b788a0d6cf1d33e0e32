@@ -1,0 +1,157 @@
+I"�<h3 id="작업을-시작하기-전에">작업을 시작하기 전에!!</h3>
+<ol>
+  <li>
+    <p>나의 github 계정으로 데이터리안 블로그 repository를 fork해주세요!</p>
+
+    <p><img src="./img/fork.png" alt="fork" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>터미널을 켜서 <code class="highlighter-rouge">git clone 주소</code> 명령으로 fork한 repository를 clone합니다.</p>
+
+    <p><img src="./img/clone.png" alt="clone" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">git remote add upstream 주소</code> 명령을 입력해서 upstream을 추가해주세요.</p>
+
+    <p><img src="./img/add_upstream.png" alt="add_upstream" /></p>
+
+    <ul>
+      <li>
+        <p><code class="highlighter-rouge">git remote -v</code> 로 upstream이 추가 되었는지 확인합니다.</p>
+
+        <p><img src="./img/remote.png" alt="remote" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git pull upstream master</code> 명령으로 최신 상태를 반영합니다.</p>
+      </li>
+    </ul>
+
+    <p> </p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">git checkout -b 브랜치이름</code> 명령으로 새로운 브랜치를 생성합니다.</p>
+
+    <p><img src="./img/blog_update.png" alt="blog-update" /></p>
+
+    <p> </p>
+  </li>
+</ol>
+
+<h3 id="그럼-이제-members-tab에-나를-추가해볼까요">그럼 이제 Members tab에 나를 추가해볼까요?</h3>
+
+<ol>
+  <li>
+    <p>Visual Studio Code를 열어서 clone해온 repository를 열어줍니다.</p>
+
+    <p><img src="./img/open.png" alt="open" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>data 폴더의 members.yml 파일을 열어줍니다.</p>
+
+    <p><img src="./img/member.png" alt="member" /></p>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>나의 정보를 추가한 후 저장합니다.</p>
+
+    <p><img src="./img/add_member.png" alt="add_member" /></p>
+    <ul>
+      <li>
+        <p>나의 정보를 각 속성에 맞게 추가해줍니다.</p>
+      </li>
+      <li>
+        <p>이미지 파일은 member 폴더의 img 폴더 안에 이미지 파일을 넣고 파일 경로를 적어주면 됩니다.</p>
+      </li>
+    </ul>
+
+    <p> </p>
+  </li>
+  <li>
+    <p><strong>저장한 후에 내가 의도한 대로 되었는지 확인하기 위해 바로 commit을 하지 마시고 로컬에서 먼저 build를 해봅니다!</strong></p>
+
+    <ul>
+      <li>데이터리안 블로그 README.md를 읽어보세요.</li>
+    </ul>
+
+    <p> </p>
+  </li>
+  <li>
+    <p>내가 의도한 대로 잘 되었다면 터미널로 가봅시다.</p>
+
+    <ul>
+      <li>
+        <p><code class="highlighter-rouge">git status</code> 명령으로 commit할 파일(untracked 파일)을 확인합니다.</p>
+
+        <p><img src="./img/status.png" alt="status" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git add .(또는 파일이름)</code> 명령으로 untracked 파일을 tracked
+ (staged) 상태로 만들어줍니다. -&gt; <strong>commit할 준비가 되었다는 뜻</strong></p>
+
+        <p><img src="./img/add.png" alt="add" />
+  별 말 없으면 잘 추가되었다는 뜻입니다.</p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git commit -m 'commit 메시지'</code> 명령으로 commit을 합니다. commit 메시지는 다른 멤버들을 위해 자세하지만 간결하게 적어주세요!</p>
+
+        <p><img src="./img/commit.png" alt="commit" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git push origin 브랜치이름</code> 명령으로 내가 만든 브랜치를 origin에 push합니다.</p>
+
+        <p><img src="./img/push.png" alt="push" /></p>
+      </li>
+      <li>
+        <p><code class="highlighter-rouge">git checkout master</code> 명령으로 master 브랜치로 브랜치를 변경합니다.</p>
+
+        <p><img src="./img/master.png" alt="master" /></p>
+      </li>
+      <li>
+        <p><strong>혹쉬 브랜치를 만들지 않고 master 브랜치에서 commit을 했다면 <a href="https://datarian-kr.github.io/blog/commit-at-master/">https://datarian-kr.github.io/blog/commit-at-master/</a> 로 가서 구원받으세요.</strong></p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>github에 들어가서 pull request를 보냅니다.</p>
+
+    <p><img src="./img/pr.png" alt="pr" /></p>
+
+    <p><img src="./img/create_pr.png" alt="create_pr" /></p>
+
+    <ul>
+      <li>
+        <p>pull request를 보내고 슬랙 #blog 채널에서 리뷰를 요청해주세요.</p>
+      </li>
+      <li>
+        <p>특정 리뷰어를 지정해서 리뷰를 요청할 수도 있습니다.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>merge가 완료되면</strong> <code class="highlighter-rouge">git branch -D 브랜치이름</code> 명령으로 내가 만든 브랜치를 삭제합니다.</p>
+  </li>
+</ol>
+
+<p> </p>
+
+<h3 id="기억하고-있으면-좋을-것들">기억하고 있으면 좋을 것들</h3>
+
+<ol>
+  <li>
+    <p>브랜치를 생성하기 전에 습관적으로 <code class="highlighter-rouge">git pull upstream master</code>를 한다.</p>
+  </li>
+  <li>
+    <p>작업을 시작하기 전에 브랜치를 생성한다.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">git add .</code> 명령을 하기 전에 로컬에서 build를 해본다.</p>
+  </li>
+</ol>
+:ET

@@ -1,0 +1,65 @@
+## If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Permalinks
+permalink: /:year-:month-:day/:title
+
+# Setup
+title: WEDFRI
+email: w.hanseul@gmail.com
+
+description: >- # this means to ignore newlines until "baseurl:"
+  We are service development team.
+
+baseurl: ""
+url: "https://wedfri.github.io/"
+github_username: failed-commune
+
+# Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
+markdown: kramdown
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# About
+author:
+  name: WEDFRI
+  url: https://wedfri.github.io
+  email: w.hanseul@gmail.com
+  github: WEDFRI
+
+# Custom vars
+version: 1.0.0
+github:
+  repo: https://github.com/WEDFRI/wedfri.github.io
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,345 @@
+I"�%<ul class="catalogue">
+
+
+    
+
+    
+
+    
+        
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Instructor
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Sunmi Yoon
+                </h1>
+                <p class="catalogue-sub">
+                    데이터리안 강의에서 목소리를 맡고 있습니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Data Analysis Education
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_sunmiyoon.jpg" /> 
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Product Manager
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Bomin Lee
+                </h1>
+                <p class="catalogue-sub">
+                    주니어 데이터 분석가, 데이터리안 강의 기획자, 레몬 러버 입니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Project Management
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_bominlee.jpg" /> 
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Product Manager, Designer, Developer
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Yeeun Han
+                </h1>
+                <p class="catalogue-sub">
+                    데이터리안에서 치트시트 디자인과 기획을 맡은 개발자입니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Data visualization
+                    </li>
+                    
+                    <li class="skill_name">
+                        Software development
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_yeeunhan.png" /> 
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Product Manager, Data Analyst
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Jaemin
+                </h1>
+                <p class="catalogue-sub">
+                    추천 시스템 강의를 만듭니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Project Management
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst, Developer
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Hanseul Wang
+                </h1>
+                <p class="catalogue-sub">
+                    데이터분석을 합니다. 개발과 디자인을 가끔 합니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Data visualization
+                    </li>
+                    
+                    <li class="skill_name">
+                        Software development
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_hanseulwang.jpg" /> 
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Dahye Kim
+                </h1>
+                <p class="catalogue-sub">
+                    주니어 데이터 분석가 &amp; 데이터리안에서 머신러닝 강의 기획을 합니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Project Management
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+            <img class="member-img" src="/member/img/img_dahyekim.jpg" /> 
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Minju Kim
+                </h1>
+                <p class="catalogue-sub">
+                    데이터 분석을 합니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Product Manager, Data Analyst
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    S
+                </h1>
+                <p class="catalogue-sub">
+                    Junior Data Analyst &amp; Advanced SQL Product Manager
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Project Management
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+        </div>
+    </div>
+</li>
+
+<li class="catalogue-item transition member">
+    <div class="member-box">
+        <div class="mem-item">
+            <p class="catalogue-type transition">
+                Data Analyst
+            </p>
+            <div class="catalogue-info transition">
+                <h1 class="catalogue-title">
+                    Yeseul Bae
+                </h1>
+                <p class="catalogue-sub">
+                    Junior Product Analyst, 데이터리안에서 머신러닝 강의 기획을 합니다.
+                </p>
+            </div>
+            <div class="member-skill">
+                <ul>
+                    
+                    <li class="skill_name">
+                        Data Analysis
+                    </li>
+                    
+                    <li class="skill_name">
+                        Project Management
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="member-item">
+            
+        </div>
+    </div>
+</li>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+</ul>
+:ET

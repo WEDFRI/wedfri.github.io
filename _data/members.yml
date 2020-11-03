@@ -1,0 +1,45 @@
+members:
+  - role: Data Analyst
+    name: Jaemin
+    bio: 추천 시스템 강의를 만듭니다.
+    img:
+    skills:
+      - Data Analysis
+      - Project Management
+      - ~~
+    contact:
+    github:
+
+  - role: Data Analyst, Developer, Product Manager
+    name: Hanseul Wang
+    bio: 데이터분석을 합니다. 개발과 디자인을 가끔 합니다.
+    img: /member/img/img_hanseulwang.jpg
+    skills:
+      - Data Analysis
+      - Data visualization
+      - Software development
+      - Product Management
+    contact: w.hanseul@gmail.com
+    github:
+
+  - role: Data Analyst, Developer
+    name: Hanseul Wang
+    bio: 데이터분석을 합니다. 개발과 디자인을 가끔 합니다.
+    img: /member/img/img_hanseulwang.jpg
+    skills:
+      - Data Analysis
+      - Data visualization
+      - Software development
+    contact: w.hanseul@gmail.com
+    github:
+
+  - role: Data Analyst, Developer
+    name: Hanseul Wang
+    bio: 데이터분석을 합니다. 개발과 디자인을 가끔 합니다.
+    img: /member/img/img_hanseulwang.jpg
+    skills:
+      - Data Analysis
+      - Data visualization
+      - Software development
+    contact: w.hanseul@gmail.com
+    github:
