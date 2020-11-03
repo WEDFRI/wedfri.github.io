@@ -1,5 +1,8 @@
 # WEDFRI Tech Blog
 
+https://wedfri.github.io/
+
+
 ## Ruby 설치
 
 ```bash
